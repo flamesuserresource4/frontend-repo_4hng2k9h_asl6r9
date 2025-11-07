@@ -27,10 +27,10 @@ export default function App() {
       <header className="sticky top-0 z-10 backdrop-blur bg-white/60 border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-lg bg-slate-900 text-white grid place-items-center font-bold">Sb</div>
+            <div className="h-9 w-9 rounded-lg bg-slate-900 text-white grid place-items-center font-bold">ZA</div>
             <div>
-              <h1 className="text-xl font-semibold text-slate-900">Subtitle Burn-in</h1>
-              <p className="text-xs text-slate-500">Buat subtitle dan tempel langsung ke video</p>
+              <h1 className="text-xl font-semibold text-slate-900">Zulfan.AI</h1>
+              <p className="text-xs text-slate-500">Pembuat subtitle otomatis & burn-in langsung di browser</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function App() {
         <ExportPanel video={video} cues={cues} styleOptions={styleOptions} />
 
         <footer className="pt-6 text-center text-xs text-slate-500">
-          Dibuat untuk proses subtitle cepat di browser Anda. Unggah video, tambahkan SRT, pratinjau, lalu ekspor burn-in.
+          Zulfan.AI — Unggah video, buat atau impor SRT, pratinjau, lalu ekspor burn-in.
         </footer>
       </main>
     </div>
